@@ -1,0 +1,71 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link rel="stylesheet" type="text/css" href="../css/my.css"/>
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+    <title></title>
+</head>
+<body>
+    <!--header-->
+    <div id="logo">
+        <a href="" title="Go to the Stylin' site">
+            <img src="../img/cssLogo.jpg" alt="Stylin logo" />
+        </a>
+        <h3>A New Riders book by Charles Wyke-Smith</h3>
+    </div>
+    <!--end header-->
+    
+    <!--main content-->
+    <div id="contentarea">
+        <h1>Welcome to XHTML</h1>
+        <p>
+            Good XHTML markup makes your <em>content portable</em>, <span id="span">accessible and future-proof</span>.<!--此处em后面第一个span通过选择器指定并修改样式-->
+            Creating XHTML-compliant pages simply requires following a few simple rules.
+            Also, XHTML code can be easily<span> <a href="" id="alidated">alidated</a></span> online so you can be sure it is  <!--此处超链接通过选择器指定并修改样式-->
+            correctly written.
+       	</p>
+        <p>Here are the key requirements for successful validation of your XHTML code.</p>
+        <ol>                   <!--此处ol通过选择器指定并修改样式-->
+            <li>Declare a DOCTYPE</li>             
+            <li>Declare an XML namespace</li>
+            <li>Declare your content type</li>
+            <li>Close every tag, enclosing or non-enclosing</li>
+            <li>All tags must be nested correctly</li>
+            <li>Inline tags can't contain block level tags</li>
+            <li>Write tags in lowercase</li>
+            <li>Attributes must have values and must be quoted</li>
+            <li>Use encoded equivalents for left brace and ampersand</li>
+        </ol>
+        <p><i class="fa fa-tree"></i><a href="#" id="more">more about these requirements</a></p> 
+                    <!--此处超链接通过选择器指定并修改样式--><!--此处a通过Font Awesome增加图标-->
+    </div>
+    <!--end main content-->
+    <!--navigation-->
+    <div id="navigation">
+        <p>
+            Here are some useful links from the Web site of the W<sup>3</sup>C(World
+            Wide Web Consortium), the guiding body of the Web's development.
+        </p>
+        <ul class="fa-ul">   <!--此处ul通过Font Awesome去掉默认原点，并增加图标-->
+            <li class="b"><i class="fa-li fa fa-cog" ></i>W3C's XHTML validator</li>   <!--此处ul的li通过选择器指定并修改样式-->
+            <li class="b"><i class="fa-li fa fa-cog"></i>W3C's CSS validator</li>
+            <li class="b"><i class="fa-li fa fa-spinner fa-spin"></i>XHTML Resources</li>
+            <li class="b"><i class="fa-li fa fa-spinner fa-spin"></i>CSS Resources</li>
+        </ul>
+        <p>
+            You can find more CSS related links at the <a href="" title="Go to the Stylin' site" id="with">   <!--此处超链接通过选择器指定并修改样式-->
+                Stylin'
+                with CSS
+            </a> site.
+        </p>
+    </div>
+    <!--end navigation-->
+    <!--footer-->
+    <div id="homepagefooter">
+        <p id="copy">&copy; 2017 Charles Wyke-Smith</p>
+    </div>
+    <!--end footer-->
+</body>
+</html>
