@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 454px;
+    height: 300px;
+}
+#movie {
+    list-style: none;
+}
+
+.frame {
+    position: relative;
+    margin: 20px;
+    width: 454px;
+    height: 370px;
+    float: left;
+}
+
+.txt {
+    width: 454px;
+    position: absolute;
+    top: 276px;
+    color: white;
+    background-color: rgb(51, 51, 51);
+    opacity: 0.8;
+}
+
+.movieName {
+    position: absolute;
+    top: 305px;
+}
+
+.fblue {
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+}

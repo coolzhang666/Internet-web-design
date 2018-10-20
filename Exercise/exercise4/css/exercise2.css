@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkslategray;
+}
+
+#wrap {
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+h3 {
+    color: white;
+}
+
+ul {
+    margin-top: 10px;
+    width: 900px;
+}
+
+li {
+    float: left;
+    width: 70px;
+    height: 30px;
+    border-width: 1px;
+    border-style: solid;
+    background-color: white;
+    list-style: none;
+}
+
+.head {
+    width: 90px;
+    background-color: orange;
+}
