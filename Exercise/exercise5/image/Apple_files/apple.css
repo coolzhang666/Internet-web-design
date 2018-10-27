@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+.header {
+    width: 100%;
+    height: 44px;
+    background-color: black;
+    opacity: 0.8;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.top_nav {
+    width: 100%;
+    height: 44px;
+}
+
+.top_nav_list {
+    width: 1000px;
+    height: 44px;
+    margin: 0 auto;
+    list-style: none;
+    display: flex;
+}
+
+.top_nav_li {
+    height: 44px;
+    text-align: left;
+    flex: 1;
+}
+
+.header_a{
+    line-height: 44px;
+    text-decoration: none;
+    color: white;
+    display: inline-block;
+}
+
+.top_span{
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 14px;
+    line-height: 44px;
+    display: block;
+}
+
+.logo {
+    width: 20px;
+    height: 44px;
+    filter: invert(100%);
+}
+
+.big {
+    width: 100%;
+    height: 692px;
+    position: relative;
+    background-color: black;
+    border-style: solid;
+    border-color: white;
+    border-bottom-width: 6px;
+    border-left-width: 0;
+    border-right-width: 0;
+    text-align: center;
+}
+
+.iphone_xr {
+    padding-top: 44px;
+}
+
+.post_wrapper {
+    width: 100%;
+    height: 692px;
+    position: relative;
+}
+
+.link_wrapper {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+.info {
+    padding-top: 55px;
+}
+
+.headline {
+    margin-bottom: 14px;
+}
+
+.subhead {
+    color: white;
+    margin-top: 6px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 27px;
+}
+
+.links {
+    margin-top: 9px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 21px;
+}
+
+.more {
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 21px;
+    text-decoration: none;
+    color: #6bf;
+}
+
+.image_wrapper {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+}
+
+.big_post {
+    display: block;
+    position: absolute;
+    text-align: center;
+    bottom: 0;
+}
+
+.apple_watch {
+    background-color: white;
+    text-align: left;
+}
+
+.watch_info {
+    width: 50%;
+    display: inline-block;
+    text-align: center;
+    padding-top: 20%;
+}
+
+.watch_subline {
+    color: black;
+}
+
+.watch_image_wrapper {
+    width: 50%;
+    height: 100%;
+    display: inline-block;
+    position: absolute;
+}
+
+.small_post {
+    width: 100%;
+    margin: 0;
+    height: 1782px;
+}
+
+.event {
+    width: 50%;
+    height: 580px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 6px;
+    position: relative;
+    display: inline-block;
+}
+
+.small_post_wrapper {
+    width: 98%;
+    height: 580px;
+    position: absolute;
+}
+
+.small_info {
+    width: 98%;
+    position: absolute;
+    text-align: center;
+}
+
+.small_headline {
+    margin-top: 52px;
+    margin-left: 130.5px;
+    margin-right: 130.5px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 600;
+}
+
+.small_subhead {
+    margin-top: 4px;
+    margin-left: 130.5px;
+    margin-right: 130.5px;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    font-size: 21px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.small_image_wrapper {
+    width: 98%;
+    height: 428px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    overflow: hidden;
+}
+
+.give_back {
+    width: 50%;
+    height: 580px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 6px;
+    padding-right: 12px;
+    position: relative;
+    display: inline-block;
+}
