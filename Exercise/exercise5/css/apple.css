@@ -476,3 +476,7 @@ body {
 .ggg {
     height: 100%;
 }
+
+.link_wrapper {
+    z-index: 2;
+}
