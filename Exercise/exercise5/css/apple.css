@@ -463,3 +463,16 @@ body {
     text-decoration-line: none;
     text-decoration-style: solid;
 }
+
+.more_right {
+    margin-left: 26px;
+}
+
+.fff {
+    position: relative;
+    text-align: center;
+}
+
+.ggg {
+    height: 100%;
+}
