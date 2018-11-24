@@ -5,33 +5,36 @@
 		<title>章强的博客</title>
 		<link rel="stylesheet" href="../css/header.css">
 		<link rel="stylesheet" href="../css/container.css">
+		<link rel="stylesheet" href="../css/slidbar.css">
 		<link rel="stylesheet" href="../css/footer.css">
 	</head>
 	<body>
 		<div id="wrap">
 			<div class="header" id="header">
 				<div class="textLogo" id="textLogo">
-					<h1 class="title">章强的博客</h1>
-					<h2 class="subtitle">记录点滴学习生活</h2>
+					<div class="logo">
+						<h1 class="title">章强的博客</h1>
+						<h3 class="subtitle">记录点滴学习生活</h3>
+					</div>
 				</div>
 				<div class="nav" id="nav">
-					<ul class="list">
-						<li class="iteam">
-							<a href="###">主页</a>
-						</li>
-						<li class="iteam">
-							<a href="###">归档</a>
-						</li>
-						<li class="iteam">
-							<a href="###">简历</a>
-						</li>
-						<li class="iteam">
-							<a href="###">关于</a>
-						</li>
-						<li class="iteam">
-							<input class="search" type="text" name="search" id="search" placeholder="搜索" />
-						</li>
-					</ul>
+					<div class="list_wrapper">
+						<ul class="list">
+							<li class="iteam">
+								<a class="nav_link" href="index.html">主页</a>
+							</li>
+							<li class="iteam">
+								<a class="nav_link" href="###">归档</a>
+							</li>
+							<li class="iteam">
+								<a class="nav_link" href="###">简历</a>
+							</li>
+							<li class="iteam">
+								<a class="nav_link" href="###">关于</a>
+							</li>
+							<input class="search" type="text" name="search" id="search" placeholder="搜索" autocomplete="off" />
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="container" id="container">
@@ -40,13 +43,12 @@
 						<ul>
 							<li>
 								<div class="article_link_wrapper">
-									<a class="article_link" href="###" title="开发者所需要知道的 WWDC 2018 新特性"></a>
-									<h3 class="article_title">开发者所需要知道的 WWDC 2018 新特性</h3>
-									<p class="article_subtitle">一直阅读我的博客的朋友可能知道，我在每年 WWDC 之后都会写 (水) 一篇关于新 SDK 和开发工具的文章。
-										之前这个系列叫做《开发者所需要知道的 iOS SDK 新特性》，但是最近虽然 Craig 嘴上说着不要，身体
-										却很诚实地将 iOS 和 macOS 带到一起，所以今年我觉得可以改一改题目，就总览一下作为 Apple 生态
-										圈的开发者，在今年 WWDC 上我个人的一些观察，以及可能应该注意的有趣的地方。在会前，Apple 就已
-										经放出消息要放慢增加新功能的脚步，转而提升软件稳定性和可靠性。...…
+									<a class="article_link" href="article.html" title="开发者所需要知道的 WWDC 2018 新特性"></a>
+									<h3 class="article_title">Java并发之volatile详解</h3>
+									<p class="article_subtitle">计算机在执行程序时，每条指令都是在CPU中执行的，而执行指令过程中，势必涉及
+										到数据的读取和写入。由于程序运行过程中的临时数据是存放在主存（物理内存）当中的，这时就存在一个问题，由
+										于CPU执行速度很快，而从内存读取数据和向内存写入数据的过程跟CPU执行指令的速度比起来要慢的多，因此如果任
+										何时候对数据的操作都要通过和内存的交互来进行，会大大降低指令执行的速度。因此在CPU里面就有了高速缓存。
 									</p>
 									<time class="time" datetime="2018-10-9 19:49">2018-10-9 19:49</time>
 								</div>
@@ -117,60 +119,54 @@
 						</div>
 					</div>
 				</div>
-				<div class="slidBar" id="slidBar">
-					<h3>分类</h3>
-					<ul>
-						<li>
-							<a href="###">Java</a>
-						</li>
-						<li>
-							<a href="###">Python</a>
-						</li>
-						<li>
-							<a href="###">C</a>
-						</li>
-						<li>
-							<a href="###">C++</a>
-						</li>
-						<li>
-							<a href="###">C#</a>
-						</li>
-						<li>
-							<a href="###">HTML</a>
-						</li>
-						<li>
-							<a href="###">CSS</a>
-						</li>
-						<li>
-							<a href="###">JavaScript</a>
-						</li>
-						<li>
-							<a href="###">Golang</a>
-						</li>
-					</ul>
+				<div class="slidBarWrapper">
+					<div class="slidBar" id="slidBar">
+						<h3 class="fenlei">分类</h3>
+						<ul>
+							<li class="fenlei_list">
+								<a class="feilei_link" href="###">Java</a>
+							</li>
+							<li class="fenlei_list">
+								<a class="feilei_link" href="###">Python</a>
+							</li>
+							<li class="fenlei_list">
+								<a class="feilei_link" href="###">C</a>
+							</li>
+							<li class="fenlei_list">
+								<a class="feilei_link" href="###">C++</a>
+							</li>
+							<li class="fenlei_list">
+								<a class="feilei_link" href="###">C#</a>
+							</li>
+							<li class="fenlei_list">
+								<a class="feilei_link" href="###">HTML</a>
+							</li>
+							<li class="fenlei_list">
+								<a class="feilei_link" href="###">CSS</a>
+							</li>
+							<li class="fenlei_list">
+								<a class="feilei_link" href="###">JavaScript</a>
+							</li>
+							<li class="fenlei_list">
+								<a class="feilei_link" href="###">Golang</a>
+							</li>
+						</ul>
+						<h3 class="fenlei">联系我</h3>
+						<ul>
+							<li class="contact_list">
+								<img class="icon" src="../image/QQ.svg" alt="QQ">
+							</li>
+							<li class="contact_list">
+								<img class="icon" src="../image/wechat.svg" alt="微信">
+							</li>
+							<li class="contact_list">
+								<img class="icon" src="../image/github.svg" alt="github">
+							</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="footer" id="footer">
-				<h3 class="contact_title">联系我</h3>
-				<div id="contact">
-					<ul class="contact_list">
-						<li class="contact_iteam">
-							<a href="###">Github</a>
-						</li>
-						<li class="contact_iteam">
-							<a href="###">g+</a>
-						</li>
-						<li class="contact_iteam">
-							<a href="###">QQ</a>
-						</li>
-						<li class="contact_iteam">
-							<a href="###">sina</a>
-						</li>
-						<li class="contact_iteam">
-							<a href="###">Mail</a>
-						</li>
-					</ul>
-				</div>
 				<p class="copyright">Copyright © 2018 Zhang Qiang</p>
 			</div>
 		</div>

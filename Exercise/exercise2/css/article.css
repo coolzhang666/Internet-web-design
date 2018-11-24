@@ -1,0 +1,94 @@
+.container {
+    width: 85%;
+    height: 100%;
+    display: flex;
+    position: relative;
+    margin: 0 auto;
+}
+
+.subtitle {
+    margin: 0;
+    font-size: 20px;
+    color: rgb(250, 250, 250);
+    text-align: center;
+}
+
+.main {
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+}
+
+.article {
+    width: 90%;
+    position: relative;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.article_title {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+    border-style: solid;
+    border-left-width: 5px;
+    border-left-color: rgb(44, 166, 203);
+    border-bottom-width: 1px;
+    border-bottom-color: rgb(44, 166, 203);
+    border-top-style: none;
+    border-right-style: none;
+    display: table;
+}
+
+.article_title > div {
+    display: table-cell;
+    vertical-align: middle;
+    padding-left: 5%;
+}
+
+.article_title > div > h3 {
+    margin: 0;
+    color: rgb(44, 166, 203);
+    font-weight: inherit;
+    font-style: inherit;
+    font-family: inherit;
+    font-size: 30px;
+}
+
+.article_wrapper {
+    width: 100%;
+    min-height: 170px;
+    padding-top: 10px;
+    position: relative;
+    background-color: rgb(250, 250, 250);
+}
+
+.aaa {
+    width: 90%;
+    height: 100%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+li {
+    list-style: none;
+    /* margin-top: 10px; */
+    margin-bottom: 10px;
+}
+
+@media only screen and (max-width: 1100px) {
+
+    .container {
+        display: block;
+    }
+
+    .slidBar {
+        width: 0;
+        display: none;
+    }
+
+    .main {
+        width: 100%;
+    }
+}
