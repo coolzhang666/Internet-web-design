@@ -93,6 +93,9 @@ body {
 }
 
 .nav_link {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
     text-decoration-line: none;
     font-weight: inherit;
     font-style: inherit;
