@@ -1,0 +1,169 @@
+/*gobal begins*/
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+}
+
+button {
+  border: none;
+  background: #fff;
+  outline: none;
+  cursor: pointer;
+}
+
+/*gobal ends*/
+
+/*header begins*/
+.navContainer {
+  height: 60px;
+}
+#nav {
+  display: flex;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  flex-flow: row nowrap;
+  justify-content: space-around;
+  align-items: center;
+  background: #eec0c0;
+  height: 60px;
+  line-height: 60px;
+}
+
+#nav::after{
+  content: '';
+  position: absolute;
+  top: 10%;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  background-size: 100% 100%;
+  filter: blur(10px) brightness(80%) opacity(.8);
+  z-index: -1;
+}
+
+nav span {
+  cursor: pointer;
+  font-size: 1.3em;
+  font-weight: bold;
+  color: #b46363;
+}
+
+/*header ends*/
+
+/*section begins*/
+
+/*section 1 begins*/
+/*.codeImg {
+  padding-top: 30px;
+  height: 500px;
+}
+
+.codeImg img {
+  height: 100%;
+}
+
+#firstSec {
+  padding-top: 50px;
+}
+
+.code_1 {
+  text-align: center;
+  padding-top: 50px;
+}*/
+/*section 1 ends*/
+
+/*section 2 begins*/
+.matrixContainer {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.codeContainer {
+  height: 600px;
+}
+
+.co {
+  display: none;
+  text-align: center;
+  margin-top: 70px;
+}
+
+.row {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center;
+}
+
+.col {
+  display: inline-block;
+  margin: 10px 10px 0 0;
+  height: 80px;
+  width: 80px;
+  background: #85f8fe;
+  line-height: 80px;
+  text-align: center;
+  font-size: 2em;
+  font-weight: bold;
+  cursor: pointer;
+  -webkit-user-select:none;
+  -moz-user-select:none;
+  -ms-user-select:none;
+  user-select:none;
+}
+
+/*section 2 ends*/
+
+/*setion 3 begins*/
+/*.thirdContainer {
+  margin-top: 50px;
+}
+.th {
+  height: 200px;
+  line-height: 200px;
+  margin-top: 50px;
+  border: 1px solid red;
+  text-align: center;
+}
+
+.thirdContainer h2 {
+  margin: 0;
+  padding: 0;
+}
+
+#toTop {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  height: 40px;
+  display: none;
+  width: 40px;
+  line-height: 40px;
+  text-align: center;
+  color: #b26eb6;
+  font-weight: bold;
+  border: 1px solid #00ff4b;
+  background: #effeff;
+  cursor: pointer;
+}
+
+.add {
+  margin-top: 50px;
+  height: 600px;
+}
+
+.add img{
+  width: 100%;
+}
+/*setion 3 ends*/
+
+.show {
+  display: none;
+}
+
+.red {
+  background: #f2afe9;
+}

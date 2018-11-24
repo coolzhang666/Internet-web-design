@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<title>QAQ</title>
+		<link rel="stylesheet" href="./index.css">
+		<link rel="stylesheet" type="text/css" href="test1.css"/>
+	</head>
+
+	<body>
+		<header>
+			<div class="navContainer">
+				<nav id="nav">
+					<span class="navSpan" id="sec_1">Section 1</span>
+					<span class="navSpan" id="sec_2">Section 2</span>
+					<!--<span class="navSpan" id="sec_3" onclick="getSecThird()">Section 3</span>-->
+				</nav>
+			</div>
+		</header>
+		<section id="firstSec" class="sec show">
+			<!--放置轮播图-->
+			<div class="container">
+		        <div class="image_wrapper">
+		            <img src="image/link1.jpg" alt="">
+		            <img src="image/link2.jpg" alt="">
+		            <img src="image/link3.jpg" alt="">
+		            <img src="image/link4.jpg" alt="">
+		            <img src="image/link5.jpg" alt="">
+		            <img src="image/link6.jpg" alt="">
+		            <img src="image/link1.jpg" alt="">
+		        </div>
+		    </div>			
+		</section>
+		<section id="secondSec" class="sec">
+			<div class="matrixContainer">
+				<div class="row">
+					<span id="matrix_1" class="col">1</span>
+					<span id="matrix_2" class="col">2</span>
+					<span id="matrix_3" class="col">3</span>
+				</div>
+				<div class="row">
+					<span id="matrix_4" class="col abc def">4</span>
+					<span id="matrix_5" class="col">5</span>
+					<span id="matrix_6" class="col">6</span>
+				</div>
+				<div class="row">
+					<span id="matrix_7" class=""></span>
+					<span id="matrix_8" class="col">7</span>
+					<span id="matrix_9" class=""></span>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript">
+		var num1 = document.getElementById("matrix_1");
+		num1.addEventListener('click', change, false);
+		var flag = true;
+		
+		window.onload = function() {
+			changeTheSection_2();
+			matrix_1();
+		}
+		//section的点击事件
+		function changeTheSection_2() {
+			var nav_1 = document.getElementById('sec_1');
+			var nav_2 = document.getElementById('sec_2');
+
+			nav_1.onclick = function() {
+				//你所需要增加的部分
+				document.getElementById("firstSec").style.cssText = "display:block";
+				document.getElementById("secondSec").style.cssText = "display:none";
+			}
+			
+			nav_2.addEventListener('click',function() {
+				//你所需要增加的部分
+				document.getElementById("firstSec").style.cssText = "display:none";
+				document.getElementById("secondSec").style.cssText = "display:block";
+			},false);
+
+
+			
+		}
+		function change() {
+			if(flag) {
+				num1.style.cssText = "background:yellow";
+				flag = false;
+			}
+			else {
+				num1.style.cssText = "background:#85f8fe";
+				flag = true;
+			}
+		}
+	</script>
+</html>
