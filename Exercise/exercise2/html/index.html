@@ -8,6 +8,8 @@
 		<link rel="stylesheet" href="../css/slidbar.css">
 		<link rel="stylesheet" href="../css/footer.css">
 		<script src="../js/slidbar.js"></script>
+		<script src="../js/header.js"></script>
+		<script src="../js/index.js"></script>
 	</head>
 	<body>
 		<div id="wrap">
@@ -17,6 +19,9 @@
 						<h1 class="title">章强的博客</h1>
 						<h3 class="subtitle">记录点滴学习生活</h3>
 					</div>
+				</div>
+				<div id="menu" class="menu_wrapper">
+					<img class="menu" src="../image/menu.svg" alt="">
 				</div>
 				<div class="nav" id="nav">
 					<div class="list_wrapper">
@@ -48,8 +53,7 @@
 									<h3 class="article_title">Java并发之volatile详解</h3>
 									<p class="article_subtitle">计算机在执行程序时，每条指令都是在CPU中执行的，而执行指令过程中，势必涉及
 										到数据的读取和写入。由于程序运行过程中的临时数据是存放在主存（物理内存）当中的，这时就存在一个问题，由
-										于CPU执行速度很快，而从内存读取数据和向内存写入数据的过程跟CPU执行指令的速度比起来要慢的多，因此如果任
-										何时候对数据的操作都要通过和内存的交互来进行，会大大降低指令执行的速度。因此在CPU里面就有了高速缓存。
+										于CPU执行速度很快，而从内存读取数据和向内存写入数据的过程跟CPU执行指令的速度比起来要慢的多
 									</p>
 									<time class="time" datetime="2018-10-9 19:49">2018-10-9 19:49</time>
 								</div>
@@ -60,9 +64,7 @@
 									<h3 class="article_title">关于 MVC 的一个常见的误用</h3>
 									<p class="article_subtitle">写在前面：ObjC 中国 (或者说我个人) 现在正和 objc.io 合作打造一本关于 app 架构的书籍。英文版
 										本已经提前预售，书本身也进入了最后的 review 阶段。我们也将在第一时间进行本书中文版的工作，还请大
-										家关注。 本文的内容也是有关 app 架构的一些思考，如果你对架构方面的话题有兴趣的话，我之前还写过一篇
-										利用 reducer 的单向数据流动的函数式 View Controller 的文章可供参考。如何避免把 Model 
-										View Controller 写成 Massi...…
+										家关注。 本文的内容也是有关 app 架构的一些思考
 									</p>
 									<time class="time" datetime="2018-10-9 19:49">2018-10-9 19:49</time>
 								</div>
@@ -73,9 +75,7 @@
 									<h3 class="article_title">不同角度看问题 - 从 Codable 到 Swift 元编程</h3>
 									<p class="article_subtitle">最近开设了一个小专栏，用来记录日常开发时遇到的问题和解决方案，同时也会收藏一些学习时记录的笔记，随想等。
 										其中一些长文 (包括本文) 会首发于专栏，之后再同步到博客这边。虽然现在的文章还不多，但是因为计划更新比
-										较勤快，所以适当进行收费，也算是对自己写作的一种鼓励和鞭笞。欢迎感兴趣的同学进行订阅，谢谢~起源前几天
-										看到同事的一个 P-R，里面有将一个类型转换为字典的方法。在我们所使用的 API 中，某些方法需要接受 JSON
-											兼容的字典 (也就是说，字典中键值对的 value 只能是数字，字...…
+										较勤快，所以适当进行收费，也算是对自己写作的一种鼓励和鞭笞
 									</p>
 									<time class="time" datetime="2018-10-9 19:49">2018-10-9 19:49</time>
 								</div>
@@ -87,8 +87,7 @@
 									<p class="article_subtitle">在去年我应 IBM 编辑的邀请写过一篇关于 Swift 2 中 throws 的文章。现在回头看，Swift 2 其实是
 											Swift 语言发展的一个挺重要的节点：如果说 Swift 1 是一个更偏向于验证阶段的产品的话，Swift 2 
 											中加入的特性为这门语言的基石进行了补足。在那篇文章里我们主要深入探索了新的 throw 关键字背后的事情，
-											而同一时期其实 Swift 官方有过一次关于错误处理的讨论。随着 Swift 3 的开源，这些原始文档也被一同
-											公开，展示了 Swift 设计的过程和轨迹...…
+											而同一时期其实 Swift 官方有过一次关于错误处理的讨论。
 									</p>
 									<time class="time" datetime="2018-10-9 19:49">2018-10-9 19:49</time>
 								</div>

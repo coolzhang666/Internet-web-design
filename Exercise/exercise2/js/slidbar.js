@@ -1,4 +1,4 @@
-window.onload = function(){
+function slidbar() {
     var qqspan = document.getElementById("qqspan");
     var wechatspan = document.getElementById("wechatspan");
     var qq = document.getElementById("QQ");

@@ -182,17 +182,26 @@ hr {
 }
 
 @media only screen and (max-width: 1250px) {
+
+    .html {
+        min-width: 580px;
+    }
+
     .iteam1 {
-        height: 250px;
+        height: 426px;
     }
 
     .infowrapper {
-        width: 90%;
+        width: 75%;
         left: 90px;
     }
 
+    .text > p {
+        top: 26px;
+    }
+
     .time {
-        top: 170px;
+        top: 316px;
         left: 0;
         text-align: left;
     }
