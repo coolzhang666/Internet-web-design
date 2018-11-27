@@ -7,6 +7,7 @@
 		<link rel="stylesheet" href="../css/container.css">
 		<link rel="stylesheet" href="../css/slidbar.css">
 		<link rel="stylesheet" href="../css/footer.css">
+		<script src="../js/slidbar.js"></script>
 	</head>
 	<body>
 		<div id="wrap">
@@ -24,10 +25,10 @@
 								<a class="nav_link" href="index.html">主页</a>
 							</li>
 							<li class="iteam">
-								<a class="nav_link" href="###">归档</a>
+								<a class="nav_link" href="timeline.html">归档</a>
 							</li>
 							<li class="iteam">
-								<a class="nav_link" href="###">关于</a>
+								<a class="nav_link" href="about.html">关于</a>
 							</li>
 							<li class="iteam">
 								<a class="nav_link" href="login.html">登录</a>
@@ -152,17 +153,27 @@
 							</li>
 						</ul>
 						<h3 class="fenlei">联系我</h3>
-						<ul>
+						<ul class="contact_ul">
 							<li class="contact_list">
-								<img class="icon" src="../image/QQ.svg" alt="QQ">
+								<span id="github" class="iconwrapper">
+									<img class="icon" src="../image/github.svg" alt="QQ">
+								</span>
 							</li>
 							<li class="contact_list">
-								<img class="icon" src="../image/wechat.svg" alt="微信">
+								<span id="qqspan" class="iconwrapper">
+									<img class="icon" src="../image/QQ.svg" alt="微信">
+								</span>
 							</li>
 							<li class="contact_list">
-								<img class="icon" src="../image/github.svg" alt="github">
+								<span id="wechatspan" class="iconwrapper">
+									<img class="icon" src="../image/wechat.svg" alt="github">
+								</span>
 							</li>
 						</ul>
+						<div class="add">
+							<img id="QQ" class="addme" src="../image/QQ.jpg" alt="">
+							<img id="wechat" class="addme" src="../image/wechat.png" alt="">
+						</div>
 					</div>
 				</div>
 			</div>

@@ -1,0 +1,21 @@
+/*向右*/
+.triangle_border_right{
+    width:0;
+    height:0;
+    border-width:30px 0 30px 30px;
+    border-style:solid;
+    border-color:transparent transparent transparent #333;/*透明 透明 透明 灰*/
+    /* margin:40px auto; */
+    position:relative;
+}
+/* .triangle_border_right span{
+    display:block;
+    width:0;
+    height:0;
+    border-width:28px 0 28px 28px;
+    border-style:solid;
+    border-color:transparent transparent transparent #fc0;/*透明 透明 透明 黄*/
+    position:absolute;
+    top:0px;
+    left:0px;
+} */
